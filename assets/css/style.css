@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Lalezar&family=Lato:wght@100;400;700;900&family=Libre+Baskerville&family=Passion+One&family=Poppins:wght@100;400;500&family=Smooch+Sans:wght@200;700&family=Syne+Mono&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+body{
+  background-color: #491CFF;
+}
+.container{
+  width: 60%;
+  margin: 50px auto;
+}
+.conteudo{
+  background-color: #fff;
+  border-radius: 15px;
+  border: solid 1px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+button{
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(115, 218, 115);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+button:hover{
+  transition: 0.5s;
+  background-color: green;
+}
